@@ -15,3 +15,7 @@ lst = map(int, input().split())
 # input string
 text = input()
 # text = "this is a text"
+
+# init 2d array by zero
+size = 4
+t = [ [0]*size for i in range(size)]
