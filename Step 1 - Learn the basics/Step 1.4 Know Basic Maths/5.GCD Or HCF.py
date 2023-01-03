@@ -12,9 +12,14 @@ thier GCD is 5.
 
 def gcd(a, b):
     if b==0:
-        return f"{a} {b}"
+        return a
     return gcd(b, a%b)
 
+def lcm(a, b):
+    lcm = (a*b)//gcd(a,b)
+    return lcm
 
-print(gcd(5, 10))
-print(gcd(10, 5))
+a = 14
+b = 8
+print(gcd(a, b))
+print(lcm(a, b))
