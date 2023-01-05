@@ -13,3 +13,5 @@ class Solution{
             
     }
 };
+
+cout<<n<<" ";
